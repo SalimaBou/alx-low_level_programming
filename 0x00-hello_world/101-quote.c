@@ -1,15 +1,13 @@
 #include <stdio.h>
-#include <unistd.h>
-
 /**
- * main - write
- *
- * Description: 'this is the last function'
- *
- * Return: Always 0 (Success)
- */
-
+   * main - challenging task
+   *
+   * description: as you can see this is print command
+   *
+   * Return: one
+   */
 int main(void)
 {
-	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	printf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (1);
+}
