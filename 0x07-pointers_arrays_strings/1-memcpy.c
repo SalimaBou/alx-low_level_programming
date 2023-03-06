@@ -10,7 +10,7 @@
  *
  * @dest: to memory area
  *
- * Return: a pointer to @dest
+ * Return:  pointer dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
@@ -21,5 +21,6 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		dest[i] = src[i];
 		i++;
 	}
+
 	return (dest);
 }
